@@ -1,10 +1,11 @@
 [
     {
-        "Name": "Vulkan-Tools",                   # 上游开源软件名全称
-        "License": "Apache-2.0",         # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE.txt",     # 许可证所在文件路径
+        "Name": "Vulkan-Tools",                  
+        "License": "Apache-2.0",        
+        "License File": "LICENSE.txt",    
         "Version Number": "2ee12e8ba3b306b7e8aa71695cbe0e2ff451cf3f",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/KhronosGroup/Vulkan-Tools@2ee12e8ba3b306b7e8aa71695cbe0e2ff451cf3f",   # 上游软件包发布地址
-        "Description": "第三方软件vulkan-deps/vulkan-tools"           # 开源软件功能描述
+        "Owner": "jinchanggang@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/KhronosGroup/Vulkan-Tools@2ee12e8ba3b306b7e8aa71695cbe0e2ff451cf3f",   
+        "Description": "第三方软件vulkan-deps/vulkan-tools,命令实用程序包,最重要的是vulkaninfo和vkcube工具"           
     }
 ]

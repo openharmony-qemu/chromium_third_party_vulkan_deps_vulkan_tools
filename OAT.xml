@@ -64,17 +64,25 @@ used to filter file path.
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
                 <filteritem type="filepath" name="windows-runtime-installer\InstallerRT.nsi"
-                desc="" />
+                desc="chromium原生文件无license" />
             </filefilter>
 
             <filefilter name="defaultFilter">
-                <filteritem type="filepath" name="README.OpenSource" desc="" />
-                <filteritem type="filepath" name=".*png" desc="" />
-                <filteritem type="filepath" name=".*lib" desc="" />
-                <filteritem type="filepath" name=".*icns" desc="" />
-                <filteritem type="filepath" name=".*bmp" desc="" />
-                <filteritem type="filepath" name=".*ico" desc="" />
-                <filteritem type="filepath" name=".*xcuserstate" desc="" />
+                <filteritem type="filepath" name="README.OpenSource" desc="Filter readme.opensource files" />
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter">
+                <filteritem type="filepath" name=".*png"
+                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filepath" name=".*lib"
+                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filepath" name=".*icns"
+                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filepath" name=".*bmp"
+                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filepath" name=".*ico"
+                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filepath" name=".*xcuserstate"
+                    desc="chromium原生二进制文件，不会使用" />
             </filefilter>
         </filefilterlist>
     </oatconfig>
