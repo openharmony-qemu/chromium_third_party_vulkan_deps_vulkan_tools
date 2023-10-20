@@ -6,6 +6,6 @@
         "Version Number": "2ee12e8ba3b306b7e8aa71695cbe0e2ff451cf3f",
         "Owner": "jinchanggang@huawei.com",
         "Upstream URL": "https://chromium.googlesource.com/external/github.com/KhronosGroup/Vulkan-Tools@2ee12e8ba3b306b7e8aa71695cbe0e2ff451cf3f",   
-        "Description": "第三方软件vulkan-deps/vulkan-tools"           
+        "Description": "第三方软件vulkan-deps/vulkan-tools,命令实用程序包,最重要的是vulkaninfo和vkcube工具"           
     }
 ]
